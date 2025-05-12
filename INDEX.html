@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EliteWords | Premium Freelance Writing Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="preloader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <header class="hero-header">
+        <nav class="navbar">
+            <div class="logo">Elite<span>Words</span></div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact" class="cta-button">Get in Touch</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Crafting Words That <span class="typewriter"></span></h1>
+            <p class="hero-subtitle">Premium content writing services for brands that demand excellence</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="primary-button">View My Work</a>
+                <a href="#contact" class="secondary-button">Hire Me Now</a>
+            </div>
+        </div>
+
+        <div class="scroll-down">
+            <span></span>
+        </div>
+    </header>
+
+    <section class="stats-section">
+        <div class="stats-container">
+            <div class="stat-item">
+                <div class="stat-number" data-count="150">0</div>
+                <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-count="98">0</div>
+                <div class="stat-label">Client Satisfaction</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-count="500">0</div>
+                <div class="stat-label">Articles Written</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-count="7">0</div>
+                <div class="stat-label">Years Experience</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="section-header">
+            <h2>My <span>Services</span></h2>
+            <p class="section-subtitle">Premium writing solutions tailored to your needs</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-blog"></i>
+                </div>
+                <h3>Blog Writing</h3>
+                <p>Engaging, SEO-optimized blog posts that drive traffic and establish thought leadership.</p>
+                <div class="service-tags">
+                    <span>SEO</span>
+                    <span>Engagement</span>
+                    <span>Research</span>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-ad"></i>
+                </div>
+                <h3>Copywriting</h3>
+                <p>Persuasive copy that converts visitors into customers and boosts your sales.</p>
+                <div class="service-tags">
+                    <span>Persuasive</span>
+                    <span>Conversions</span>
+                    <span>CTA</span>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <h3>Whitepapers</h3>
+                <p>In-depth, authoritative content that positions your brand as an industry leader.</p>
+                <div class="service-tags">
+                    <span>Research</span>
+                    <span>Authority</span>
+                    <span>B2B</span>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-envelope-open-text"></i>
+                </div>
+                <h3>Email Campaigns</h3>
+                <p>Compelling email sequences that nurture leads and maximize open rates.</p>
+                <div class="service-tags">
+                    <span>Nurturing</span>
+                    <span>Sequences</span>
+                    <span>Conversions</span>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <h3>E-books</h3>
+                <p>Comprehensive guides that provide value and generate high-quality leads.</p>
+                <div class="service-tags">
+                    <span>Lead Gen</span>
+                    <span>Value</span>
+                    <span>Authority</span>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <h3>Website Content</h3>
+                <p>Strategic web copy that communicates your value proposition effectively.</p>
+                <div class="service-tags">
+                    <span>Branding</span>
+                    <span>Messaging</span>
+                    <span>UX</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="section-header">
+            <h2>Featured <span>Work</span></h2>
+            <p class="section-subtitle">A selection of my most impactful writing projects</p>
+        </div>
+
+        <div class="portfolio-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="blog">Blog Posts</button>
+            <button class="filter-btn" data-filter="copy">Copywriting</button>
+            <button class="filter-btn" data-filter="technical">Technical</button>
+            <button class="filter-btn" data-filter="marketing">Marketing</button>
+        </div>
+
+        <div class="portfolio-grid">
+            <div class="portfolio-item" data-category="blog">
+                <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Blog Writing Sample">
+                    <div class="portfolio-overlay">
+                        <h3>Tech Trends Blog</h3>
+                        <p>Monthly featured article for leading tech magazine</p>
+                        <a href="#" class="view-project">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="copy">
+                <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80" alt="Copywriting Sample">
+                    <div class="portfolio-overlay">
+                        <h3>Fintech Landing Page</h3>
+                        <p>High-converting copy for startup launch</p>
+                        <a href="#" class="view-project">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="technical">
+                <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Technical Writing Sample">
+                    <div class="portfolio-overlay">
+                        <h3>API Documentation</h3>
+                        <p>Comprehensive developer guides</p>
+                        <a href="#" class="view-project">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="marketing">
+                <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Marketing Writing Sample">
+                    <div class="portfolio-overlay">
+                        <h3>Email Campaign Series</h3>
+                        <p>Nurture sequence with 42% open rate</p>
+                        <a href="#" class="view-project">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="blog">
+                <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1581093450021-4a7360e9a8e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Blog Writing Sample">
+                    <div class="portfolio-overlay">
+                        <h3>Health & Wellness Blog</h3>
+                        <p>Weekly articles for holistic health brand</p>
+                        <a href="#" class="view-project">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="copy">
+                <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Copywriting Sample">
+                    <div class="portfolio-overlay">
+                        <h3>Product Descriptions</h3>
+                        <p>E-commerce conversion optimization</p>
+                        <a href="#" class="view-project">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-cta">
+            <p>Want to see more samples tailored to your industry?</p>
+            <a href="#contact" class="primary-button">Request Specific Samples</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-image">
+                <div class="image-frame">
+                    <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Professional Writer">
+                </div>
+                <div class="signature">
+                    <img src="https://i.postimg.cc/3JZQZQZQ/signature.png" alt="Signature">
+                </div>
+            </div>
+            <div class="about-content">
+                <h2>About <span>Me</span></h2>
+                <p class="about-intro">Wordsmith. Storyteller. Conversion Specialist.</p>
+                <p>With over seven years of professional writing experience across diverse industries, I've mastered the art of crafting compelling content that resonates with target audiences and achieves business objectives.</p>
+                
+                <div class="about-details">
+                    <div class="detail-item">
+                        <h4>Education</h4>
+                        <p>Master's in Creative Writing, University of Oxford</p>
+                    </div>
+                    <div class="detail-item">
+                        <h4>Certifications</h4>
+                        <p>Certified Content Marketer (CCM), SEO Writing Certification</p>
+                    </div>
+                    <div class="detail-item">
+                        <h4>Approach</h4>
+                        <p>Research-driven, audience-focused, and results-oriented writing</p>
+                    </div>
+                </div>
+
+                <div class="skills-section">
+                    <h4>My Skills</h4>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>SEO Writing</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Copywriting</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Technical Writing</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Editing/Proofreading</span>
+                                <span>98%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 98%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <div class="section-header">
+            <h2>Client <span>Testimonials</span></h2>
+            <p class="section-subtitle">What my clients say about my work</p>
+        </div>
+
+        <div class="testimonials-slider">
+            <div class="testimonial-slide active">
+                <div class="testimonial-content">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">Working with this writer has been transformative for our content strategy. The articles not only rank well but genuinely engage our audience. We've seen a 40% increase in time-on-page since we started collaborating.</p>
+                    <div class="client-info">
+                        <div class="client-avatar">
+                            <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Client">
+                        </div>
+                        <div class="client-details">
+                            <h4>Sarah Johnson</h4>
+                            <p>Marketing Director, TechStart Inc.</p>
+                            <div class="client-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-slide">
+                <div class="testimonial-content">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">The whitepaper produced for our fintech startup was nothing short of exceptional. It became our most downloaded asset and helped us secure several high-value partnerships. The depth of research and clarity of expression was impressive.</p>
+                    <div class="client-info">
+                        <div class="client-avatar">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client">
+                        </div>
+                        <div class="client-details">
+                            <h4>Michael Chen</h4>
+                            <p>CEO, PayForward Solutions</p>
+                            <div class="client-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-slide">
+                <div class="testimonial-content">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">Our email conversion rates improved dramatically after implementing the copywriting strategies suggested. The writer has an uncanny ability to understand our brand voice and audience psychology. Worth every penny!</p>
+                    <div class="client-info">
+                        <div class="client-avatar">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Client">
+                        </div>
+                        <div class="client-details">
+                            <h4>Emily Rodriguez</h4>
+                            <p>E-commerce Manager, StyleHaven</p>
+                            <div class="client-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-controls">
+                <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="process-section">
+        <div class="section-header">
+            <h2>My <span>Process</span></h2>
+            <p class="section-subtitle">How I deliver exceptional results every time</p>
+        </div>
+
+        <div class="process-steps">
+            <div class="process-item">
+                <div class="process-number">01</div>
+                <div class="process-content">
+                    <h3>Discovery</h3>
+                    <p>In-depth consultation to understand your goals, audience, and brand voice</p>
+                </div>
+            </div>
+            <div class="process-item">
+                <div class="process-number">02</div>
+                <div class="process-content">
+                    <h3>Research</h3>
+                    <p>Market analysis, competitor review, and audience persona development</p>
+                </div>
+            </div>
+            <div class="process-item">
+                <div class="process-number">03</div>
+                <div class="process-content">
+                    <h3>Outline</h3>
+                    <p>Strategic content structure approved before writing begins</p>
+                </div>
+            </div>
+            <div class="process-item">
+                <div class="process-number">04</div>
+                <div class="process-content">
+                    <h3>Writing</h3>
+                    <p>Crafting compelling content tailored to your specifications</p>
+                </div>
+            </div>
+            <div class="process-item">
+                <div class="process-number">05</div>
+                <div class="process-content">
+                    <h3>Revision</h3>
+                    <p>Refining based on your feedback to ensure perfection</p>
+                </div>
+            </div>
+            <div class="process-item">
+                <div class="process-number">06</div>
+                <div class="process-content">
+                    <h3>Delivery</h3>
+                    <p>Final files delivered on time, ready to publish</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-container">
+            <h2>Ready to Elevate Your Content Strategy?</h2>
+            <p>Let's discuss how I can help you achieve your business goals through powerful writing</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="primary-button">Get a Free Quote</a>
+                <a href="#" class="secondary-button">Download My Media Kit</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <h2>Get In <span>Touch</span></h2>
+            <p class="section-subtitle">Let's create something amazing together</p>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Email</h4>
+                        <p>hello@elitewords.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Phone</h4>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Location</h4>
+                        <p>Based in New York, working with clients worldwide</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Availability</h4>
+                        <p>Monday - Friday: 9am - 5pm EST</p>
+                        <p>Emergency projects: Available weekends</p>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-fiverr"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email Address</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected></option>
+                            <option value="blog-writing">Blog Writing</option>
+                            <option value="copywriting">Copywriting</option>
+                            <option value="whitepapers">Whitepapers</option>
+                            <option value="email-campaigns">Email Campaigns</option>
+                            <option value="e-books">E-books</option>
+                            <option value="website-content">Website Content</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <label for="service">Service Needed</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Your Project Details</label>
+                    </div>
+                    <button type="submit" class="primary-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="section-header">
+            <h2>Frequently <span>Asked Questions</span></h2>
+            <p class="section-subtitle">Common questions from my clients</p>
+        </div>
+
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What industries do you specialize in?</h3>
+                    <div class="faq-toggle">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <p>I have extensive experience across multiple industries including technology, finance, healthcare, e-commerce, SaaS, and professional services. My research skills allow me to quickly become conversant in new industries as needed.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How do you determine pricing for projects?</h3>
+                    <div class="faq-toggle">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <p>Pricing is based on project scope, research requirements, word count, and turnaround time. I offer per-project pricing rather than hourly rates to provide budget certainty. Smaller projects start at $250, with comprehensive content strategies priced accordingly.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What's your typical turnaround time?</h3>
+                    <div class="faq-toggle">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <p>Standard turnaround is 5-7 business days for most projects. Rush services (48-72 hour turnaround) are available for an additional 25% fee. Large projects like e-books or whitepapers typically require 2-3 weeks depending on research needs.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Do you offer revisions?</h3>
+                    <div class="faq-toggle">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, all projects include up to two rounds of revisions at no additional cost. Additional revisions can be accommodated at my standard hourly rate. Revisions must be requested within 14 days of delivery.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How do you ensure content is original?</h3>
+                    <div class="faq-toggle">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <p>All content is written from scratch following extensive research. I use Copyscape Premium to verify originality before delivery, and can provide the report upon request. Plagiarism is never acceptable in professional writing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-section">
+        <div class="section-header">
+            <h2>Latest <span>Insights</span></h2>
+            <p class="section-subtitle">Thoughts on writing, marketing, and communication</p>
+        </div>
+
+        <div class="blog-grid">
+            <div class="blog-card">
+                <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Blog Post">
+                    <div class="blog-date">
+                        <span>15</span>
+                        <span>Jun</span>
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span><i class="fas fa-tag"></i> Content Strategy</span>
+                        <span><i class="fas fa-comment"></i> 5 Comments</span>
+                    </div>
+                    <h3>The Psychology Behind High-Converting Blog Titles</h3>
+                    <p>Discover the cognitive triggers that make certain headlines irresistible to click...</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Blog Post">
+                    <div class="blog-date">
+                        <span>02</span>
+                        <span>Jul</span>
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span><i class="fas fa-tag"></i> Copywriting</span>
+                        <span><i class="fas fa-comment"></i> 12 Comments</span>
+                    </div>
+                    <h3>How to Write Product Descriptions That Sell</h3>
+                    <p>Transform your e-commerce conversions with these proven product description frameworks...</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80" alt="Blog Post">
+                    <div class="blog-date">
+                        <span>22</span>
+                        <span>Jul</span>
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span><i class="fas fa-tag"></i> Marketing</span>
+                        <span><i class="fas fa-comment"></i> 8 Comments</span>
+                    </div>
+                    <h3>The Future of AI in Content Creation: Threat or Opportunity?</h3>
+                    <p>Exploring how professional writers can leverage AI tools while maintaining authenticity...</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="blog-cta">
+            <p>Want more writing tips and industry insights?</p>
+            <a href="#" class="primary-button">View All Articles</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <div class="logo">Elite<span>Words</span></div>
+                <p>Premium content writing services for discerning clients who value quality, expertise, and measurable results.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-fiverr"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-services">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Blog Writing</a></li>
+                    <li><a href="#">Copywriting</a></li>
+                    <li><a href="#">Whitepapers</a></li>
+                    <li><a href="#">Email Campaigns</a></li>
+                    <li><a href="#">E-books</a></li>
+                    <li><a href="#">Website Content</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> hello@elitewords.com</li>
+                    <li><i class="fas fa-phone-alt"></i> +1 (555) 123-4567</li>
+                    <li><i class="fas fa-map-marker-alt"></i> New York, NY</li>
+                    <li><i class="fas fa-clock"></i> Mon-Fri: 9am-5pm EST</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                <p>&copy; 2023 EliteWords. All Rights
